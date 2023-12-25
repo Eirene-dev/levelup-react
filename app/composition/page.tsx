@@ -1,9 +1,10 @@
-import ItemList from "./item-list";
+import UserDetail from './user-detail';
 
 export default function Home() {
+
   return (
     <main className="flex flex-col p-4">
-      <ItemList />
+      <UserDetail />
     </main>
   )
 }

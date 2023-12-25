@@ -1,9 +1,10 @@
-import ItemList from "./item-list";
+import ToggleParentComponent from "./toggle"
 
 export default function Home() {
+
   return (
     <main className="flex flex-col p-4">
-      <ItemList />
+      <ToggleParentComponent />
     </main>
   )
 }
