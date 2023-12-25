@@ -21,7 +21,6 @@ export default function RootLayout({
         <GlobalNav />
         <div className="lg:pl-72">{children}</div>
       </body>
-
     </html>
   )
 }

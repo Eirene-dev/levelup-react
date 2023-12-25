@@ -6,6 +6,8 @@ export const Item = React.memo(({ content }: {content: string}) => {
   return <li className="p-2 mb-2 bg-gray-100 rounded shadow">{content}</li>;
 });
 
+Item.displayName = 'Item';
+
 export default function ItemList() {
   const [items, setItems] = useState(['Item 1', 'Item 2']);
   const [input, setInput] = useState('');
